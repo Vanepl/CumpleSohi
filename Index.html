@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cumple de mi bebé sophi</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #83bbe0;
+      padding: 20px;
+    }
+
+    .main-card,
+    .second-card {
+      width: 90%;
+      max-width: 800px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .main-card h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .main-card img {
+      width: 100%;
+      display: block;
+      margin-bottom: 15px;
+      border-radius: 10px;
+    }
+
+    .main-card p {
+      text-align: center;
+      margin-top: 80px;
+      margin-bottom: 40px;
+    }
+
+    .image-pair {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 140px;
+    }
+
+    .image-pair img {
+      width: 48%;
+      border-radius: 10px;
+    }
+
+    .hover-images {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 15px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .hover-images .hover-card {
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+      width: 60%;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+
+    .hover-images img {
+      width: 100%;
+      display: block;
+    }
+
+    .hover-card span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      font-size: 18px;
+      font-weight: bold;
+      transition: opacity 0.3s ease;
+    }
+
+    .hover-card:hover span {
+      opacity: 1;
+    }
+    .second-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap; /* Permite que los elementos se apilen en pantallas pequeñas */
+      }
+  
+      .second-card img {
+        width: 100%; /* Ajusta el ancho al contenedor */
+        max-width: 300px; /* Limita el ancho máximo de la imagen */
+        border-radius: 10px;
+      }
+  
+      .second-card-content {
+        flex: 1;
+        min-width: 250px; /* Evita que el texto sea demasiado pequeño */
+      }
+  
+      .second-card p {
+        margin-bottom: 20px;
+        text-align: justify; /* Mejora la lectura */
+      }
+  
+      .second-card button {
+        padding: 10px 20px;
+        border: none;
+        background: #cab598;
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+  
+      .second-card button:hover {
+        background: #ffdeb0;
+      }
+  
+  </style>
+</head>
+<body>
+  <div class="main-card">
+    <h1>FELIZ CUMPLEAÑOS SOPHISITA</h1>
+    <img src="imagenes/portada.png" alt="Imagen Principal">
+    <p>Un día como hoy nació la niña más linda que conozco, la más especial y única, que brilla donde sea que esté. De verdad, agradezco a Dios por traerte a este mundo; alegras todo a tu alrededor con tu sonrisa, tu forma de ser y esa actitud tan tuya que hace reír a cualquiera.
+        Amor, sinceramente no sé mucho sobre Taylor, pero sé que te gusta muchísimo. Me puse a investigar qué canción podría dedicarle a una Swiftie (como les dicen, JAJAJ) y encontré estas dos hermosas canciones. Por eso, hoy te las dedico, mi vida.
+        ¡Felices 19 primaveras, corazón! ❤️
+        </p>
+
+    <div class="image-pair">
+      <img src="imagenes/cancion1.jpg" alt="Imagen 2">
+      <img src="imagenes/cancion2.jpg" alt="Imagen 3">
+    </div>
+
+    <div class="hover-images">
+        <div class="hover-card">
+            <img src="imagenes/foto1.jpeg" alt="Imagen 1">
+            <span>Amo demasiado esta foto. Tú más que nadie sabes lo mucho que me encanta verte con gafas, te ves tan perfecta. Esa perfección que nació hoy, un 28 de enero. ❤️</span>
+          </div>
+          <div class="hover-card">
+            <img src="imagenes/foto2.jpeg" alt="Imagen 5">
+            <span>¡Maldita sea, eres tan perfecta! Sé que ya lo sabes, y tu ego me lo presume, por eso no te lo digo mucho. Pero en serio, soy tan afortunada de tenerte en mi vida. ¡Gracias, destino! 💖</span>
+          </div>
+          <div class="hover-card">
+            <img src="imagenes/foto3.jpeg" alt="Imagen 6">
+            <span>Esa sonrisa... justo esa, es la que nunca quisiera ver apagarse. Voy a luchar para verla siempre. Gracias, mi amor, por alegrar mi vida. Mis días contigo son más bonitos. ❤️</span>
+          </div>
+          <div class="hover-card">
+            <img src="imagenes/foto4.jpeg" alt="Imagen 7">
+            <span>Eres una en un millón. La niña que todos quieren... ¡la tengo yo! Y haré todo para que seas mi esposa algún día. 💍</span>
+          </div>
+          <div class="hover-card">
+            <img src="imagenes/foto5.jpeg" alt="Imagen 8">
+            <span>Amor, no te enojes porque puse esta foto. Pero este es tu estilo: esa niña hermosa que sale con sus locuras de la nada, que me encanta. Es parte de lo que más amo de ti, lo que te hace única. Te amo más cada día. Por favor, nunca cambies, mi amor. ❤️</span>
+          </div>
+          
+    </div>
+  </div>
+
+  <div class="second-card">
+    <img src="imagenes/imgfoter.webp" alt="Imagen Secundaria">
+    <div class="second-card-content">
+      <p>Amor mío, hoy quiero desearte todo lo mejor en este día tan especial. Que mi Dios siga bendiciéndote cada día más, que te llene de salud, felicidad y amor, y que te permita cumplir muchísimos años más (y en todos esos años, que sigas siendo mi novia, por supuesto). 💕
+
+        Eres una niña increíble, sincera, amable y con un corazón tan bonito que mereces todo lo bueno que esta vida tiene para ofrecerte. Sé que vas a llegar muy lejos, amor, porque tienes la fuerza, la determinación y el talento para lograr todo lo que te propongas. Espero estar ahí a tu lado, apoyándote y celebrando cada uno de tus éxitos.
+        
+        Hoy es un día especial, porque hace 19 años nació el amor de mi vida, la niña de mis ojos, la persona que ilumina mis días con su sonrisa y me llena el corazón con su amor. Espero que hoy la pases increíble, rodeada de quienes te aman y que este nuevo año de vida esté lleno de momentos inolvidables.
+        
+        Te amo más de lo que las palabras pueden expresar, y cada día agradezco al destino por haberte puesto en mi vida  y como dijo taylor "Me mostraste colores que sabes que no puedo ver con nadie mas". Feliz cumpleaños, mi amor. 🎉🎂❤️</p>
+      <button id="download-btn">Descargar</button>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("download-btn").addEventListener("click", function () {
+      const link = document.createElement("a");
+      link.href = "imagenes/FotodeRegalo.png";
+      link.download = "imagenes/FotodeRegalo.png";
+      link.click();
+    });
+  </script>
+</body>
+</html>
